@@ -4,7 +4,7 @@
 
 基于 [Textual](https://textual.textualize.io/) 的终端 AI 写作工具，10 步流程从故事方向到章节生成一气呵成。支持 OpenAI 兼容 API（DeepSeek、OpenAI、本地 Ollama 等）。
 
-![demo](https://raw.githubusercontent.com/wiki/yourname/superwrites/demo.png)
+![demo](https://raw.githubusercontent.com/wiki/ZYT64/superwrites/demo.png)
 
 ## ✨ 特性
 
@@ -22,7 +22,7 @@
 ## 📦 安装
 
 ```bash
-git clone https://github.com/yourname/superwrites.git
+git clone https://github.com/ZYT64/superwrites.git
 cd superwrites
 
 # 推荐：虚拟环境
@@ -100,7 +100,7 @@ SuperWrites/
 │       ├── log_panel.py       # 右下日志
 │       └── input_bar.py       # 命令输入 + Tab 补全
 ├── tests/                      # 端到端测试
-│   └── test_final3.py         # 9 步完整流程测试
+│   └── test_e2e.py            # 9 步完整流程测试
 ├── novels/                     # 小说项目（运行时生成，git 忽略）
 ├── config.example.json        # 配置示例
 ├── config.json                 # 用户配置（含 API Key，git 忽略）
@@ -154,7 +154,7 @@ SuperWrites/
 ## 🧪 测试
 
 ```bash
-python tests/test_final3.py
+python tests/test_e2e.py
 ```
 
 应输出 `=== 全部 9/9 步通过 ===`，覆盖方向生成、书名生成、角色、世界观、大纲、规范、章节、摘要、自检全流程。

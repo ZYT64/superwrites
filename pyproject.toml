@@ -40,8 +40,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/superwrites"
-Issues = "https://github.com/yourname/superwrites/issues"
+Homepage = "https://github.com/ZYT64/superwrites"
+Issues = "https://github.com/ZYT64/superwrites/issues"
 
 [project.scripts]
 superwrites = "superwrites.tui_app:main"
