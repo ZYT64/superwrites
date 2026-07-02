@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 运行时配置（含 API Key）
+config.json
+.superwrites_config.json
+.env
+.env.test
+
+# 生成的小说项目（数据可能很大）
+novels/*/chapters/*.txt
+novels/*/metadata.json
+
+# 测试临时文件
+tests/test_*.py.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~
